@@ -15,7 +15,7 @@
 
 ## Numérotation
 
-<état>.<sprint>.<module>
+état.sprint.module
 
 Exemples :
 | Commit | Signification |
@@ -49,7 +49,7 @@ Exemples :
 
 ## Bonnes pratiques
 
-- 1 commit = 1 tâche identifiable ✅  
+- 1 commit = 1 tâche identifiable
 - Toujours un titre **court et descriptif**  
 - Pas de “update” / “fix bug” flous  
 - Utiliser le présent (“ajoute”, “corrige”, “crée”)  

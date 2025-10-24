@@ -1,5 +1,5 @@
 # ==========================
-# 📦 BACKEND — Spring Boot
+# 📦 BACKEND — Java / Spring Boot
 # ==========================
 target/
 *.class
@@ -7,22 +7,29 @@ target/
 *.war
 *.ear
 
-# Maven specific
+# Maven
 .mvn/
 !/.mvn/wrapper/maven-wrapper.jar
-.settings/
 dependency-reduced-pom.xml
+.settings/
+
+# Exclusions spécifiques (ne pas ignorer les cibles dans le code source)
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 # Logs
 logs/
 *.log
 
-# Environment
+# Environnements / Config
 .env
 *.env
 application-*.yml
 application-*.yaml
 application-*.properties
+
+# HELP files
+HELP.md
 
 # ==========================
 # 💻 FRONTEND — Vue / Node
@@ -38,30 +45,39 @@ pnpm-debug.log*
 coverage/
 
 # ==========================
-# 🧰 IDE & OS FILES
+# 🧰 IDE & BUILD SYSTEMS
 # ==========================
-# IntelliJ / IDEA
+# IntelliJ IDEA / JetBrains
 .idea/
 *.iml
+*.ipr
+*.iws
 out/
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 # VS Code
 .vscode/
 
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
 # ==========================
-# ☁️ CLOUD / BUILD / TEMP
+# ☁️ CLOUD / TEMP / SECRETS
 # ==========================
-# Local environment / secrets
 .gcloud/
 firebase-debug.log
 *.key.json
@@ -83,6 +99,19 @@ reports/
 *.coverage
 coverage-final.json
 junit-report.xml
+
+# ==========================
+# 💻 OS FILES
+# ==========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # ==========================
 # 📄 MISC

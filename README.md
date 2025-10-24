@@ -27,23 +27,6 @@ Créer une **application collaborative de gestion de projets et de tâches** :
 
 ---
 
-## 🛠️ Structure du projet
-
-cloud-checklists/
-│
-├── backend/ # Spring Boot (API REST)
-│ ├── src/
-│ └── pom.xml
-│
-├── frontend/ # Vue 3 (interface utilisateur)
-│ ├── src/
-│ └── package.json
-│
-└── README.md
-
-
----
-
 ## ⚙️ Pré-requis
 
 - Java 21 (`java -version`)
