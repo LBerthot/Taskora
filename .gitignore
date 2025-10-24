@@ -1,0 +1,91 @@
+# ==========================
+# 📦 BACKEND — Spring Boot
+# ==========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven specific
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+.settings/
+dependency-reduced-pom.xml
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+*.env
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# ==========================
+# 💻 FRONTEND — Vue / Node
+# ==========================
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+.cache/
+coverage/
+
+# ==========================
+# 🧰 IDE & OS FILES
+# ==========================
+# IntelliJ / IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================
+# ☁️ CLOUD / BUILD / TEMP
+# ==========================
+# Local environment / secrets
+.gcloud/
+firebase-debug.log
+*.key.json
+serviceAccount*.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ==========================
+# 🧪 TESTS & REPORTS
+# ==========================
+test-output/
+reports/
+*.coverage
+coverage-final.json
+junit-report.xml
+
+# ==========================
+# 📄 MISC
+# ==========================
+*.orig
+*.rej
